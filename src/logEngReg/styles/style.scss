@@ -1,0 +1,108 @@
+div.login-page {
+    div.login-field {
+        div.login-header {
+            button.btn-full {
+                width: 100%;
+                margin-right: 10px;
+                border-width: 5px;
+            }
+            flex-direction: row;
+            display: flex;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        div.login-form {
+            div.form-field {
+                .font-loker{
+                    padding-top: 30px;
+                    color:  rgb(9, 185, 150);
+                    font-family: 'Orbitron', sans-serif;
+                    font-weight: 1000;
+                    font-size: 25px;
+                    margin-right: auto;
+                    // margin-left: auto;
+                }
+                .h1-med {
+                    font-size: 2rem !important;
+                    text-align: center;
+                    margin-bottom: 70px;
+                    font-family: 'Anton', sans-serif;
+                }
+                .form-input {
+                    .font-label{
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                    .form-bottom {
+                        .btn-secondary {
+                            background-color: #666 !important;
+                            color: white !important;
+                        }
+                        .text-blue {
+                            width: 100%;
+                            margin-top: 8px;
+                            color: rgb(9, 185, 150);
+                            font-size: 12px;
+                            text-align: right !important
+                        }
+                        flex-direction: row;
+                        display: flex;
+                    }
+                    margin-top: 20px;
+                }
+                width: 100%;
+                min-height: 200px;
+            }
+            margin-top: 10px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 15px;
+            width: 70%;
+            min-height: 400px;
+            box-shadow: 3px 5px 20px rgb(94, 93, 93);
+            margin-right: auto;
+            margin-left: auto;
+        }
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        padding: 50px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    width: 100%;
+    min-height: 700px;
+    background-color: white;
+}
+
+.active , .btn:hover {
+    background-color: #666;
+    // color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #666 !important;
+    outline: 5px solid rgb(73, 72, 72) !important;
+    border-radius: .25rem;
+    // color: white !important;
+}
+.input-username {
+    width: 100%;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #87decdff;
+    outline: none;
+    font-size: 1em;
+    font-weight: 300;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.shadow-input:hover{
+    box-shadow: 1px 1px 1px #666
+}
